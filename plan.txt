@@ -1,0 +1,66 @@
+The Layout (html and css)
+{
+    9 boxes in a 3X3
+    {
+        container box (display grid, id)
+        {
+            gap
+
+            tick box(flex, classes for their positions)
+            {
+                border
+
+                text element(id, class)
+                {
+
+                } 
+            }
+        }
+    }
+}
+
+
+The Program (javascript)
+{
+    tick box event listener()
+    {
+        Toggle between x and o
+
+        Check if box is filled ()
+        {
+
+            if not, set to x or o based on toggle
+            {
+                change toggle of x or o
+            }
+
+            if is, ignore
+        }
+    }
+
+    check for 3 in a row()
+    {
+        iterateTroughAllClasses()
+        {
+            iterate in count obj.
+        }
+    }
+
+    threeInRowObj
+    {
+        diagCount: 0
+    }
+}
+
+
+
+lVert
+mVert
+rVert
+
+tHoriz
+mHoriz
+bHoriz
+
+lrDiag
+rlDiag
